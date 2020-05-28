@@ -14,7 +14,7 @@ var phone;
 //front-end
 $(document).ready(function(){
     $("#show-order").hide();
-    $("#order").click(function(){ 
+    $("#reserve").click(function(){ 
         $("#menu").hide();
         $("#show-order").show();           
         customerName=$("#name").val();
