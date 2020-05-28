@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Osiri's menu</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>Osiri's African Cusine</h1>
+    <p>For african cusine and bevereges visit us or order in through iReserve.</p>
+
+    <form id="menus">
+      <label>Changaa:</label>
+      <input type="checkbox" name="food" value="50" /><br>
+      <label>Busaa:</label>
+      <input type="checkbox" name="food" value="75" /><br>
+      <label>Liver:</label>
+      <input type="checkbox" name="food" value="200" /><br>
+      <label>Managu:</label>
+      <input type="checkbox" name="food" value="100" /><br>
+      <label>Njahi:</label>
+      <input type="checkbox" name="food" value="125" /><br>
+      <label>Rice:</label>
+      <input type="checkbox" name="food" value="150" /><br>
+      <label>Ugali:</label>
+      <input type="checkbox" name="food" value="175" /><br>
+      <button type="submit" class="bg-secondary" id="submit">Submit</button>
+    </form>
+
+    <div id="price">
+      <p>Your order of <span id="food"></span> will cost you Ksh. <span id="amount"></span></p>
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/osiris.js"></script>
+  </body>
+
+</html>

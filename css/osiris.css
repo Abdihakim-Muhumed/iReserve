@@ -1,0 +1,27 @@
+* {
+  text-align: center;
+  color: gold;
+  font-size: 20px;
+
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+#menus {
+  font-family: 'Great Vibes', cursive;
+}
+
+#price {
+  display: none;
+  font-family: 'Sacramento', cursive;
+}
+#price p {
+  color: black;
+    font-weight: 700;
+    font-size: 24px;
+}
+body {
+  background-image: url(../images/osiri.jpg);
+}
