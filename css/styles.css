@@ -1,5 +1,5 @@
 body{
-  background-image: url(../images/photo-1525648199074-cee30ba79a4a.jpeg);
+  background-color: grey;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,14 +30,21 @@ body{
 }
 #contacts{
   margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: url(../images/photo-1527678524043-1e3209482e3c.jpeg);
+  color: red;
 }
 .jumbotron{
   font-family: 'Slackey', cursive;
 }
 .para{
-  background-color: whitesmoke;
-  text-decoration-color: lime;
-  font-family: 'Dancing Script', cursive;
+  background-image: url(../images/photo-1573936451783-0b33869dd43a.jpeg);
+  background-position: center;
+  font-family: 'Sonsie One', cursive;
+  color:black;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .Una{
   font-family: 'Slackey', cursive;
