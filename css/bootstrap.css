@@ -4,6 +4,10 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> d8471ae985628ad14cd6cd643cea4db2138da42f
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -61,7 +65,10 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+<<<<<<< HEAD
   background-image:image()
+=======
+>>>>>>> d8471ae985628ad14cd6cd643cea4db2138da42f
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -5243,11 +5250,17 @@ a.badge-dark:focus, a.badge-dark.focus {
 
 .jumbotron {
   padding: 2rem 1rem;
+<<<<<<< HEAD
   margin-top: 5px;
   margin-bottom: 10px;
   background-color: #e9ecef;
   border-radius: 0.3rem;
   background-image: url(../images/photo-1518767350436-b5a459f49ee0.jpeg);
+=======
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+>>>>>>> d8471ae985628ad14cd6cd643cea4db2138da42f
 }
 
 @media (min-width: 576px) {
@@ -10224,6 +10237,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+<<<<<<< HEAD
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -10260,4 +10274,6 @@ a.text-dark:hover, a.text-dark:focus {
   transform: rotateY(180deg);
 }
 
+=======
+>>>>>>> d8471ae985628ad14cd6cd643cea4db2138da42f
 /*# sourceMappingURL=bootstrap.css.map */
