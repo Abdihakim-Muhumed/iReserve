@@ -2,7 +2,7 @@
 # Author : 
 Abdihakim Muhumed.
 # Description
-The application  allows users to order different kinds of foods from different hotels and restaurants and allows user to come and pick for themselves from the hotel or come and eat in the restaurant.
+The application  allows users to order different kinds of foods from different hotels and restaurants and the order is reserved to allow the user to come and pick for themselves from the hotel or come and eat in the restaurant.
 # Setup Instructions
 Click this link to order a pizza on the site: https://abdihakim-muhumed.github.io/iReserve 
 # Technologies
