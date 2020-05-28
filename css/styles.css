@@ -1,0 +1,51 @@
+body{
+  background-color: grey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#card-display{
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.card{
+  width:300px;
+  margin:100px;
+}
+.card-img-top{
+  height:200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flip-card{
+  position: relative;
+  top: 50px;
+  align-items: center;
+  transform: initial;
+}
+#contacts{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-image: url(../images/photo-1527678524043-1e3209482e3c.jpeg);
+  color: red;
+}
+.jumbotron{
+  font-family: 'Slackey', cursive;
+}
+.para{
+  background-image: url(../images/photo-1573936451783-0b33869dd43a.jpeg);
+  background-position: center;
+  font-family: 'Sonsie One', cursive;
+  color:black;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Una{
+  font-family: 'Slackey', cursive;
+}
