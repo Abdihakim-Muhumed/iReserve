@@ -1,0 +1,44 @@
+body{
+  background-image: url(../images/photo-1525648199074-cee30ba79a4a.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#card-display{
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+.card{
+  width:300px;
+  margin:100px;
+}
+.card-img-top{
+  height:200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flip-card{
+  position: relative;
+  top: 50px;
+  align-items: center;
+  transform: initial;
+}
+#contacts{
+  margin-top: 5%;
+}
+.jumbotron{
+  font-family: 'Slackey', cursive;
+}
+.para{
+  background-color: whitesmoke;
+  text-decoration-color: lime;
+  font-family: 'Dancing Script', cursive;
+}
+.Una{
+  font-family: 'Slackey', cursive;
+}
