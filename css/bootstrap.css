@@ -4,14 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- <<<<<<< HEAD
-<<<<<<< HEAD
-=======
- 
->>>>>>> d8471ae985628ad14cd6cd643cea4db2138da42f
-=======
 
->>>>>>> bd667216605dc87cdf878b92f8f3b27643e0781e
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -69,18 +62,8 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  <<<<<<< HEAD
-<<<<<<< HEAD
-  background-image:image()
-  =======
->>>>>>> d8471ae985628ad14cd6cd643cea4db2138da42f
-=======
+}  
 
-  background-image:image()
-
->>>>>>> bd667216605dc87cdf878b92f8f3b27643e0781e
-}
-}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -259,6 +242,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  color: black;
 }
 
 button,
@@ -10242,6 +10226,7 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -10277,5 +10262,4 @@ a.text-dark:hover, a.text-dark:focus {
   color: white;
   transform: rotateY(180deg);
 }
-
 /*# sourceMappingURL=bootstrap.css.map */
