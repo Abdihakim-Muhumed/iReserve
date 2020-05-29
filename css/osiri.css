@@ -1,5 +1,5 @@
 body {
-background-image: url(../images/sweet.jpg);
+background-image: url(..restaurant/sweet.jpg);
 }
 .nav-flex-row {
     display: flex;
@@ -25,13 +25,35 @@ background-image: url(../images/sweet.jpg);
     font-weight: 300;
 }
 .jumbotron {
-    background-image: url(../images/cool.jpg);
+    background-image: url(../images/osiri.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.jumbotron p,
+.jumbotron p{
+    color: black;
+    font-style: italic;
+}
 .jumbotron h1 {
     color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+}
+.jumbotron p {
+    color: orange;
+}
+
+#menus {
+  font-family: 'Great Vibes', cursive;
+  color: red;
+}
+
+#price {
+  display: none;
+  font-family: 'Sacramento', cursive;
+}
+#price p {
+  color: orange;
+    font-weight: 700;
+    font-size: 24px;
 }
 * {
   text-align: center;
@@ -39,7 +61,7 @@ background-image: url(../images/sweet.jpg);
   font-size: 20px;
 }
 .section-intro {
-    background-image: url(../images/delicious.jpg);
+    background-image: url(../images/kenya.jpg);
     height: 820px;
     background-size: cover;
     display: flex;
@@ -61,7 +83,7 @@ background-image: url(../images/sweet.jpg);
     font-size: 20px;
     font-weight: 600px;
     font-style: italic;
-    margin-top: 40%;
+    margin-top: 2%;
 }
 .section-intro header {
     display: flex;
@@ -94,7 +116,7 @@ a.link-to-book:hover {
     color: #95999e;
     text-decoration: none;
 }
-.about-section h2{
+.about-section h3{
     text-align: center;
     width: 50%;
     color: red;
@@ -109,7 +131,7 @@ a.link-to-book:hover {
     margin: auto;
     font-family: sans-serif;
     font-size: 10px;
-    color: green;
+    color: black;
 }
 
 .row-flex {
