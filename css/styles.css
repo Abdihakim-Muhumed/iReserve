@@ -33,18 +33,21 @@ body{
   margin-bottom: 5%;
   background-image: url(../images/photo-1527678524043-1e3209482e3c.jpeg);
   color: red;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .jumbotron{
   font-family: 'Slackey', cursive;
 }
 .para{
-  background-image: url(../images/photo-1573936451783-0b33869dd43a.jpeg);
+  background-image: url(../images/photo-1575578285291-905e55d5a789.jpeg);
   background-position: center;
   font-family: 'Sonsie One', cursive;
   color:black;
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-right: -5%;
+  margin-left: -5%;
+
 }
 .Una{
   font-family: 'Slackey', cursive;
