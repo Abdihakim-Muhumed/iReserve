@@ -37,8 +37,218 @@ margin-top: 2%;
   text-align: center;
   color: gold;
   font-size: 20px;
+}
+}
+* {
+  text-align: center;
+  color: gold;
+  font-size: 20px;
 
 }
+
+.jumbotron h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+}
+.jumbotron p {
+    color: orange;
+}
+
+#menus {
+  font-family: 'Great Vibes', cursive;
+  color: red;
+}
+
+#price {
+  display: none;
+  font-family: 'Sacramento', cursive;
+}
+#price p {
+  color: orange;
+    font-weight: 700;
+    font-size: 24px;
+}
+.section-intro {
+    background-image: url(../images/kenya.jpg);
+    height: 820px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+.about-section h3 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: green;
+}
+.about-section p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.carousel-inner {
+    height: 700px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+
+.btn.btn-primary {
+    font-family: sans-serif;
+    color: #ffffff;
+    background-color: #95999e;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background-color: #747474;
+}
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 15px;
+    color: orange;
+}
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+
+    .section-intro {
+        height: 500px;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+    .section-intro {
+        height: 300px;
+    }
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .section-intro h1 {
+        font-size: 15px;
+
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form-group p {
+        font-size: 15px;
+        color: #ffffff;
+    }
+
+    .opening-time p span {
+        font-size: 15px;
+        text-align: center;
+        color: orange;
+    }
+    .contact-adress p span {
+        font-size: 15px;
+        text-align: center;
+        color: orange;
+    }
+
 
 h1 {
   font-family: 'Dancing Script', cursive;
