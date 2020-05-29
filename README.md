@@ -1,10 +1,10 @@
 # iReserve
 # Author : 
-Abdihakim Muhumed.
+[Abdihakim-Muhumed](https://github.com/Abdihakim-Muhumed)
 # Description
 The application  allows users to order different kinds of foods from different hotels and restaurants and the order is reserved to allow the user to come and pick for themselves from the hotel or come and eat in the restaurant.
 # Setup Instructions
-Click this link to order a pizza on the site: https://abdihakim-muhumed.github.io/iReserve 
+Click this link to this link to reserve in our favourite restaurant on the site: https://abdihakim-muhumed.github.io/iReserve 
 # Technologies
 1.HTML
 2.CSS
@@ -12,8 +12,8 @@ Click this link to order a pizza on the site: https://abdihakim-muhumed.github.i
 4.jQuery
 5.Bootstrap
 # Contact us
-Email: abdihakim.0017@gmail.com
-Phone: +254759430440
+Email: iReserve@gmail.com
+Phone: +254 713 354 068
 # Copyright (c) 2020 iReserve
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

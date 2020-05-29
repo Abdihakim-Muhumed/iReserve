@@ -40,7 +40,7 @@ $(document).ready(function(){
                     $("#total").append(totals);                       
                 }
                 else{
-                    alert("Foods of quantity less than 0 are not ordered!!!!!!");
+                    alert("Foods of quantity less than 1 are not ordered!!!!!!");
                 }                                                                         
             }                                                  
         }                                                                                             
